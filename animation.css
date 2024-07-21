@@ -1,0 +1,19 @@
+/*上書き前*/
+.box{
+    transform: translateX(0);
+    transition: transform 1s;
+}
+/*上書き後*/
+.wrapper:hover .box{
+    transform: translateX(240px);
+}
+/*その他*/
+.wrapper{
+    padding: 8px;
+    background: lightgray;
+}
+.box{
+    width: 80px;
+    height: 80px;
+    background: orange;
+}
